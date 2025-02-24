@@ -12,12 +12,14 @@
     "expo": "~52.0.36",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
-    "react-native": "0.76.7"
+    "react-native": "0.76.7",
+    "react-native-calendars": "^1.1309.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@types/react-native-calendars": "^1.1264.7"
   },
   "private": true
 }
