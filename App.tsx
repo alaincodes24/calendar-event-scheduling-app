@@ -1,11 +1,18 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { Calendar } from "react-native-calendars";
+import { Button } from "~/components/ui/button";
+import { Text } from "~/components/ui/text";
+
+import "./global.css";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text className="text-red-500">Open up App.tsx to start working on your app!</Text>
+      <Button className="bg-red-600">
+        <Text>Default</Text>
+      </Button>
       <Calendar
         style={{
           borderWidth: 1,
